@@ -1,0 +1,7 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <StackLayout>
+      <Label text="{{ score }}" color="{{ score &gt; 0 ? '#FFFF0000' : '#FF00FF00' }}" verticalAlignment="center" marginLeft="15" />
+      <Button text="TAP" tap="{{ tapAction }}" />
+      <Label text="{{ message }}" class="message" textWrap="true"/>
+  </StackLayout>
+</Page>
